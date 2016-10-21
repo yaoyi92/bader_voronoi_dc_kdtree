@@ -13,16 +13,24 @@ bader -n bader -c voronoi test.cube
 speed test (32 h2o system)
 ===
 time spend (s) for voronoi analysis with different method.
+
 mesh size  original code dc code     dc_kdtree code
+
 100^3       42.32          4.83         0.37
+
 144^3       126.31         11.14        0.85
+
 192^3       299.97         19.73        1.52
+
 270^3       833.57         44.67        3.42
 
 ===
 speed test (512 Si + 1 H)
+
 mesh size  original code dc code     dc_kdtree code
+
 192^3       1713.11        184.98       2.23
+
 
 With dc_kdtree code, loading the cube file takes more time ;)
 
