@@ -2,7 +2,7 @@
 
 voronoi charge analysis is sometimes used in my research. The bader code is not optimized for this functionality (http://theory.cm.utexas.edu/henkelman/code/bader/).
 I borrowed some algorithms from computational science to accelarate the voronoi charge separation. 
-It is now 100s times faster and only takes several seconds for a cube file used to cost half an hour for the analysis.
+It is now 100 times faster and only takes several seconds for a cube file used to cost half an hour for the analysis.
 
 for voronoi analysis
 
